@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/thietket/public_html/
+    - /bin/cp -R /home/thietket/repositories/hello-world/ $DEPLOYPATH
